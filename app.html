@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apliciones para aprender lenguaje de señas y braille</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
+    <link href="css/cssmenu.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <meta charset="utf-8">
+</head>
+<body>
+	<div id="menuDemo">
+    <!--CssMenu-->
+    <div id="cssmenu">
+        <ul>
+            <li><a href="index.html" target="_BLANK">Inicio</a></li>
+            <li><a href="#app">Aplicaciones móviles</a></li>
+            <li><a href="cursos.html" target="_BLANK">Cursos de aprendizaje</a></li>
+            <li><a href="proyecto.html" target="_BLANK">Proyecto</a></li>
+            <li><a href="index.html #contact" target="_BLANK">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon-wrapper">
+       <div class="menu-icon" onclick="toggleCssMenu(this)">
+          <div class="three-line">
+             <span></span>
+             <span></span>
+             <span></span>
+          </div>
+       </div>
+    </div>
+    <script>
+        function toggleCssMenu(icon) {
+            var cssmenu = document.getElementById('cssmenu');
+            if (icon.className.indexOf('active') == -1) {
+                icon.className = 'menu-icon active';
+			 cssmenu.style.display = "block";
+			 setTimeout(function(){cssmenu.className = 'active';},0);            
+            }
+            else {
+                icon.className = 'menu-icon';
+			 cssmenu.className = '';
+			 setTimeout(function(){cssmenu.style.display = "none";},411); 
+            }
+        }
+    </script>
+    <!--CssMenu-->
+    </div>
+    <div class="contenedor-1">
+    	<div class="articulo">
+    		<article id="app">
+    			<h2>APLICACIONES PARA APRENDER LENGUAJE DE SEÑAS</h2>
+    			<h3><a href="https://play.google.com/store/apps/details?id=com.kitsord" target="_BLANK">Kitsord</a></h3>
+    			<p>
+    				Si necesitas aprender también la lengua de señas de otros países, Kitsord te será de gran utilidad. En ella encontramos 3 tipos distintos de este idioma, incluyendo la Lengua de Señas de Argentina (ASL), la Lengua de Señas Española (LSE) y la Lengua de Señas para los Estados Unidos (LENSEGUA). Todas estarán organizadas igualmente por categorías, pero tenemos muchas más alternativas que la app anterior, incluyendo los saludos, números, animales, consejos y comida.<br>
+    				Por otra parte, Kitsord viene con un glosario que te servirá para conseguir señas rápidamente, y lo único que necesitas es escribir el nombre de la categoría y te aparecerá su significado y la respectiva prueba. Los juegos interactivos son la oportunidad perfecta para probar tus conocimientos, por lo que verás un video o una animación de alguien haciendo distintos movimientos y debes dar las respuestas correctas, siendo una de las más útiles aplicaciones para aprender lengua de señas.
+    			</p>
+    			<div class="imagen">
+    				<a href="https://play.google.com/store/apps/details?id=com.kitsord" target="_BLANK">
+    				<img src="imagenes/kitsord.png" title="Ir a la aplicación">
+    				</a>
+    			</div>
+    			<h3><a href="https://play.google.com/store/apps/details?id=com.lsapp" target="_BLANK">LSApp</a></h3>
+    			<p>
+    				LSApp es otra propuesta destinada a la Lengua de Señas Argentina, pero lo que nos llamó poderosamente la atención frente a su diseño, es que tienes un asistente virtual que te hará la seña que escribas. Para ello, hay un personaje animado y debajo tendrás una barra buscadora en lo que puedes escribir lo que quieras. Esta te hará la traducción del español a lengua de señas y te mostrará la forma y los movimientos en pantalla, lo que no tiene precedentes.<br>
+    				Entretanto, LSApp proporciona también un catálogo por categorías para conseguir las señas de manera tradicional. Allí tendrás más de 12 carpetas, que van desde los saludos, familias, amigos, comida y necesidades, hasta deseos, días del año, entre muchos otros. Su diseño es muy intuitivo y puede realizar traducciones precisas para quienes necesitan comunicarse con un sordo sin necesidad de aprender este idioma. Tampoco necesitas conexión a internet para poder usarla.
+    			</p>
+    			<h3><a href="https://play.google.com/store/apps/details?id=deaf.khokhar.yousaf.deafsignapp" target="_BLANK">ASL</a></h3>
+    			<p>
+    				Y en casos de que necesites traducciones en vivo y usando el micrófono de tu celular para comunicarte con un sordo, Deaf Mute eliminará finalmente las barreras. Esta espectacular aplicación es capaz de detectar las palabras hablando frente al micrófono, y luego convertirlas en señas animadas para enseñárselas a un sordo y hablar con el usando un traductor inteligente. Aunque negativamente solo detecta palabras en inglés, aun cuando lo hace de manera precisa.<br>
+    				Lo que si puedes cambiar de idioma es la interfaz, pudiendo elegir entre español, francés y otros, algo que no afecta las señas ni tampoco las traducciones. Igualmente funciona para escribir palabras y convertirlas en señas con pocos segundos. Si bien no es una de las más intuitivas o mejor diseñadas de toda la lista de aplicaciones para aprender lengua de señas, si puede convertirse en una propuesta rápida para comunicarse, estudiar o por lo menos conocer su funcionamiento.
+    			</p>
+    		</article>
+    	</div>
+    	<div class="articulo">
+    		<article>
+    			<h2>APLICACIONES PARA APRENDER BRAILLE</h2>
+    			<h3><a href="https://play.google.com/store/apps/details?id=com.lukeneedham.brailletutor&hl=es" target="_BLANK">Brailliac: Braille Tutor</a></h3>
+    			<p>
+    				Esta app nos permitira aprender Braille a traves de una serie de ejercicios y desafios. La encontramos para dispositivos Android, aunque hay alguna similar para iOs. De la misma compañia encontramos tambien la app Brailliac: Braille Keyboard, que permite sustituir nuestro teclado en pantalla por uno con alfabeto en Braille.<br>
+    				En la seccion Diccionario encontramos el alfabeto en Braille. Por defecto, nos deja consultar cómo se escriben las letras en Braille. Tanto los numeros como los signos de puntuacion estan bloqueados. Para acceder a ellos tendremos que practicar con los ejercicios e ir subiendo niveles para desbloquearlos.
+    			</p>
+    			<h3><a href="https://play.google.com/store/apps/details?id=com.comoelagua.android.braille&hl=en_US" target="_BLANK">Learn Braille</a></h3>
+    			<p>
+    				La app Aprende Braille es otra que nos permite aprender el alfabeto Braille. Su funcionamiento es algo mas rapido y sencillo. La podemos encontrar de manera gratuita para Android. En la primera de las opciones tenemos Alfabeto. Nos aparece un listado con las letras, numeros y signos de puntuacion con su correspondiente representacion en Braille.<br>
+    				Finalmente, la app nos permite probar todo el Alfabeto Braille en varios tipos de ejercicios: Letras, Palabras, Numeros y Frases.
+    			</p>
+    			<h3><a href="https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback" target="_BLANK">Google Talkback</a></h3>
+    			<p>
+    				Suite de Accesibilidad de Android es un conjunto de aplicaciones de accesibilidad que te permite usar dispositivos Android sin emplear la vista o mediante interruptores. Para personas invidentes nuestra recomendación más clara es Google Talkback. Un servicio de accesibilidad que ayuda a personas con problemas de visión. Se trata de una audioguía del sistema, con comentarios hablados de cada menú y vibración para navegar por Android.<br>
+    				Lo más interesante es que de hecho está preinstalado en la mayoría de dispositivos Android y se puede activar desde el menú de Accesibilidad.
+    			</p>
+    		</article>
+    	</div>
+    </div>
+    <div class="seccion">
+        <section>
+            <img src="">
+            <h3>Traductor de lengua de señas</h3>
+        </section>
+    </div>
+    <footer>
+        <div class="utmach">
+            <img src="imagenes/LOGO_OUT.png">
+        </div>
+        <div class="integrantes">
+            <h3>Integrantes</h3>
+            <p>
+                Campoverde Agurto Marco Paul<br>
+                Campoverde Chenche Walter Javier<br>
+                Castro Prado Kevin Alexis<br>
+                Gonzalez Gualotuña Jonnathan Javier
+            </p>
+        </div>
+        <div class="redes">
+            <span>@2021 Aprendizaje de Lenguaje de Señas y Braille</span>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto Integrador de saberes</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
+  	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="css/cssmenu.css" rel="stylesheet" />
+  	<link rel="stylesheet" type="text/css" href="css/proyecto.css">
+  	<meta charset="utf-8">
+</head>
+<body>
+	<div id="menuDemo">
+    <!--CssMenu-->
+    <div id="cssmenu">
+        <ul>
+            <li><a href="index.html" target="_BLANK">Inicio</a></li>
+            <li><a href="app.html" target="_BLANK">Aplicaciones móviles</a></li>
+            <li><a href="cursos.html" target="_BLANK">Cursos de aprendizaje</a></li>
+            <li><a href="#project">Proyecto</a></li>
+            <li><a href="index.html #contact" target="_BLANK">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon-wrapper">
+       <div class="menu-icon" onclick="toggleCssMenu(this)">
+          <div class="three-line">
+             <span></span>
+             <span></span>
+             <span></span>
+          </div>
+       </div>
+    </div>
+    <script>
+        function toggleCssMenu(icon) {
+            var cssmenu = document.getElementById('cssmenu');
+            if (icon.className.indexOf('active') == -1) {
+                icon.className = 'menu-icon active';
+			 cssmenu.style.display = "block";
+			 setTimeout(function(){cssmenu.className = 'active';},0);            
+            }
+            else {
+                icon.className = 'menu-icon';
+			 cssmenu.className = '';
+			 setTimeout(function(){cssmenu.style.display = "none";},411); 
+            }
+        }
+    </script>
+    <!--CssMenu-->
+    </div>
+
+    <div class="institucion">
+    	<img src="imagenes/LOGO_OUT.png">
+    	<h2>Universidad Técnica de Machala</h2>
+    	<h6>Calidad, Pertinencia y Calidez</h6>
+    	<h4>Facultad de Ciencias Sociales</h4>
+    	<h4>Carrera de Pedagogía de las Ciencias Experimentales</h4>
+  	</div>
+  	<div class="tema" id="project">
+    	<h2>REPOSITORIO WEB CON HERRAMIENTAS DIGITALES Y CURSOS PARA EL DESARROLLO HABILIDADES EN LENGUA DE SEÑAS Y LENGUAJE BRAILLE COMO PROCESO DE INCLUSIÓN EN EL COLEGIO DE BACHILLERATO DR. JUAN HENRÍQUEZ COELLO.</h2>
+	</div>
+  	<div class="contenedor-menu2">
+    	<nav>
+    		<button onclick="boton1()" class="item">Introducción</button>
+    		<button onclick="boton2()" class="item">Problemática</button>
+    		<button onclick="boton3()" class="item">Marco Teórico</button>
+    		<button onclick="boton4()" class="item">Resultados</button>
+    		<button onclick="boton5()" class="item">Conclusiones</button>
+    	</nav>
+    </div>
+  	<div class="contenedor">
+    	<div class="introduccion">
+        	<b class="subtema">Introducción</b><br><br><br>
+        	<p>
+          		En la sociedad contemporánea, no solo se habla de inclusión de tecnología para mejorar los procesos educativos y con ella la calidad de la misma, sino que también hablamos de verdadera inclusión, donde todos los estudiantes sin importar la diversidad y/o diferencia que tengan sean incluidos en el proceso educativo.<br><br>Esto resulta beneficioso, pero a la vez más trabajoso, es por ello que los docentes del siglo XXI tienen que estar en constantes capacitaciones, para mantenerse a la vanguardia de todas las necesidades educativas, en esta investigación ponemos de foco al desarrollo de habilidades de nuevos lenguajes para mejorar la comunicación con personas y/o estudiantes con discapacidades sensoriales, la discapacidad acústica y la discapacidad visual.<br><br>En nuestro país el art 1 de la LOEI emitida en el 2011 hace referencia a equidad e inclusión, donde se tiene que garantizar el acceso educativo a todos y todas sin importar su diversidad o diferencia, erradicando toda forma de discriminación, pero esta empieza a tomar fuerza y obligatoriedad para todas las instituciones a partir del 2014 – 2015.<br><br>Al hablar sobre el proceso de inclusión nos referimos a incluir a todas las personas, sin embargo, existe muchas dificultades a la hora de afrontar con estudiantes que tienen discapacidades o necesidades educativas especiales, debido a la falta a competencias desarrolladas en los docentes.<br><br>Es por ello que en esta investigación nos centraremos en ofrecer una página web con función de repositorio, sobre herramientas digitales y cursos para el desarrollo de nuevos lenguajes, lengua de señas y lenguaje de braille, cuya finalidad estable la oportunidad a los docentes de aprender estos lenguajes, mismos que se van necesitando cada vez con mayor fuerza debido a que la educación actual busca formar a docentes con competencias necesarias para hacer frente al proceso de inclusión.<br><br>Este repositorio busca ser beneficioso para los docentes de la institución a la que se va a aplicar, esperando buenos resultados y así pudiendo ofrecer estos beneficios a mayor escala, es decir a más docentes y otras personas dentro y fuera de esta intuición.<br><br>
+        	</p>
+        	<b class="subtema">Antecedentes</b><br><br><br>
+        	<p>
+        		  El proyecto integrador de saberes PIS hace referencia a la formación interdisciplinar y transdisciplinar que ayuda a formar las competencias de investigación en el sistema 
+			   	    educativo superior, dentro de este proceso de integración de saberes se desarrolla la 
+				      capacidad de solución de problemas profesionales y de cualquier ámbito, generando nuevos 
+				      conocimientos, actitudes y habilidades dentro del enfoque de la investigación 
+				      (Castillejo Olán et al., 2017). <br><br>La educación inclusiva es como tal es un modelo o proceso que busca atender las necesidades y/o problemas de los estudiantes que conforman un grupo vulnerable, estos pueden sufrir exclusión social, donde la educación inclusiva no solo se enfoca en prestar su atención a personas con alguna de discapacidad, sino que su objetivo es velar por los derechos de todos los estudiantes, erradicando la discriminación.<br><br>Debido a que estamos en este proceso de inclusión, en beneficio para el desarrollo de habilidades de nuevos lenguajes, es que esta investigación busco desarrollar una página web con función de repositorio sobre herramientas digitales y cursos para aprender estos lenguajes, mismos que beneficiaran a desarrollar competencias de inclusión con futuros estudiantes con algún tipo discapacidad sensorial haciendo frente a la necesidad educativa especial con respecto a la parte comunicativa.	<br><br>Unificando los conocimientos obtenidos en este séptimo P.A.O de manera sistemática, las correspondientes asignaturas nos aportaron los siguientes aprendizajes: <br><br><b>Seminario de Titulación:</b> Desarrollar las fases empíricas y teóricas del proceso de investigación con fines de titulación.<br><br><b>Inclusión y adaptación curricular con tecnología:</b> Aplicar estrategias pedagógicas acordes para favorecer la práctica inclusiva en los procesos educativos, incluyendo el uso y/o adaptando tecnología.<br><br><b>Enseñanza-aprendizaje de programación web:</b> Aplicar métodos, recursos y técnicas de enseñanza-aprendizaje para programación de web para crear nuestra página en función de repositorio con características inclusivas.<br><br><b>Catedra integradora modelos y prácticas tecnológicas para la inclusión y la diversidad:</b> Modelos y prácticas tecnológicas para la inclusión y la diversidad, el integrar procesos curriculares y metodológicos para favorecer en el proceso de inclusión.<br><br><b>Comunicación Académica:</b> Desarrollar competencias de comunicación académica, mediante el análisis y ejecución de sus géneros discursivos.<br><br>
+        	</p>
+        	<b class="subtema">Justificación</b><br><br><br>
+        	<p>
+        		En la sociedad actual o contemporánea, el término inclusión viene arraigando nuevas competencias para los docentes, en este caso para enfrentar las necesidades educativas especiales de los estudiantes, para ello fue preciso analizar y enfocarnos en la discapacidad sensorial, siendo una de las más grandes según censo hecho por el consejo de discapacidades reflejan que alrededor del 22% de los discapacitados en la provincia de El Oro tiene este tipo de discapacidad (CONADIS, 2020), por esta razón nos centramos en brindar un repositorio para favorecer el desarrollo de habilidades de lengua de señas y lenguaje braille, potenciando las competencias docentes con el término inclusión.<br><br>Mediante la implementación del proyecto de investigación el mismo que tiene la finalidad de servir como un repositorio con herramientas digitales y cursos para aprender lenguaje de señas y braille, busca lograr que los docentes de la Institución logren interés por desarrollar estas habilidades con estos lenguajes para favorecer el proceso comunicativo con las personas que tienen este tipo de discapacidad y a su vez mejoren sus competencias docentes en el área de inclusión, permitiendo mejorar a futuro la calidad educativa para aquellos estudiantes con necesidades educativas especiales.
+        	</p>
+    	</div>
+    <div class="problema">
+      	<div class="problematica">
+        	<b class="subtema">Formulación del Problema</b><br><br>
+        	<p>
+          		Debido a la poca capacitación sobre los procesos de inclusión por parte del personal docente, se dio la idea de crear un repositorio web para el desarrollo de habilidades de lengua de señas y lenguaje braille para mejorar en un futuro el proceso comunicativo con estudiantes y/o otras personas que tengan discapacidad sensorial involucrándose en el proceso de inclusión, es por ello que surge la siguiente pregunta de investigación:<br><br>¿De qué manera ayudaría el desarrollo de una página web tipo repositorio con herramientas digitales y cursos para el desarrollo de habilidades en la lengua de señas y el lenguaje braille en la asignatura de Historia del Colegio de Bachillerato Dr. Juan Henríquez Coello?<br><br>
+
+        	</p>
+      	</div>
+      	<div class="objetivos">
+        	<b class="subtema">Objetivos del Proyecto</b><br><br>
+        	<b>Objetivo General</b>
+        	<p>
+          		Diseñar una página web con herramientas digitales para el desarrollo habilidades en lengua de señas y lenguaje braille en la asignatura de Historia como proceso de inclusión en el Colegio de Bachillerato Dr. Juan Henríquez Coello.<br><br>
+        	</p>
+        	<b>Objetivos Específicos</b>
+        	<ul>
+          		<li>Seleccionar las herramientas digitales adecuadas para el desarrollo de habilidades para lengua de señas a través del criterio de evaluación según los autores.</li>
+          		<li>Crear una página web mediante HTML, CSS y JavaScript que incorpore herramientas digitales para la lengua de señas y el lenguaje braille.</li>
+          		<li>Medir de qué manera favoreció la página web a la institución a través de la aplicación de una entrevista dirigida a los docentes.</li>
+        	</ul>
+      	</div>
+    </div>
+    <div class="marcoTeorico">
+		<div class="contenedorTema">
+      		<b class="subtema">Marco Teórico</b><br><br>
+		</div>
+		<b>Discapacidades Sensoriales</b><br><br>
+      	<p>
+        	La disminución de la visión y audición es un problema muy común en las personas de edad, teniendo más de la mitad de los mayores de 75 años algún tipo de disfunción auditiva y una mayor proporción disfunción visual. Son patologías muy importantes de considerar dado que conllevan graves efectos psico-sociales. Producen problemas de comunicación del paciente con su entorno lo que lleva a una desconexión del medio y poca participación en eventos sociales. También son importantes factores de riesgo para producir o agravar cuadros de depresión. Un diagnóstico y tratamiento precoz son esenciales para evitar estas frecuentes complicaciones como son:<br><br>
+         	Capacidad visual<br><br>La mayor parte de la información que se recibe en los entornos cotidianos suele ser de carácter visual, de una manera que dicha capacidad posee un peso extraordinario en el uso y manipulación de los productos de la vida diaria. Además, tiene un carácter determinante en actividades que implican riesgo, como la conducción de autos.<br><br>En este campo trabajamos con los siguientes conceptos: Agudeza, acomodación, sensibilidad al contraste, sensibilidad al deslumbramiento, adaptación a la oscuridad, visión del color, estereopsis y velocidad de lectura.<br><br>Capacidad Auditiva<br><br>El oído es un órgano muy responsable no sólo por la audición, sino también del equilibrio, gracias a ese órgano podemos percibir las vibraciones que genera nuestro entorno y transformarlas en impulsos nerviosos que el cerebro podrá interpretar. La capacidad auditiva es un sentido clave a la hora de captar información sobre el mundo exterior es un complemento importante para la visión, ya que le permite situar los estímulos en el tiempo y el espacio.<br><br>
+         	La discapacidad sensorial se separa en los dos grupos como lo son la discapacidad visual y auditiva, de tal manera que se detalla cómo se pueden producir o como estas pueden afectar y cómo se adapta o enfrenta con esta discapacidad en el ambiente social.<br><br>Lo que nos menciona (AKROS, 2017) es que la discapacidad visual se puede evidenciar de distintas formas tal es el caso de personas que tienen una ceguera parcial que no se pueden corregir con los métodos tradicionales o en cierto caso con métodos “normales” también este autor nos detalla que la discapacidad visual es una de las discapacidades sensoriales que más se evidencian, por estas pueden generarse por genética, consecuencias de accidentes, medicaciones, durante el embarazo y por desgaste natural o envejecimiento. Tomando en cuenta que esta discapacidad sensorial es una de las más frecuentes trae consigo repercusiones psicológicas, sociales, dando paso a que las personas se adapten a la sociedad acorde a su situación.<br><br>Como se sabe las discapacidades sensoriales se dividen en dos, pero en el caso de AKROS detalla la discapacidad visual tomando en cuenta como esta se puede producir o generar en el paso del tiempo o por situaciones externas a las que estamos expuestos y las consecuencias que esta discapacidad puede producir tal es el caso que afecte el aspecto psicológico y social al momento de ser partícipes en la sociedad.<br><br>Ya sabemos cómo se puede producir la discapacidad sensorial de la vista y de cómo las personas que tiene dicha discapacidad, trabajan día a día, en el caso de la educación tenemos que tomar en cuenta a los docentes y de cómo ellos se preparan para tratar con estudiantes con problemas visuales tal es el caso de aprender a manejar un lenguaje inclusivo como lo es el braille o el poderse adaptar o incluir TIC en sus clases para que de esta forma los estudiantes con los problemas visuales sean partícipes de la una comunidad socioeducativa.<br><br>La (UNED, 2014/2015) nos dice que los niños con sordera se lo pueden vincular de una manera más afable a la sociedad, pero porque la UNED nos dice esto, debido a que el lenguaje de señas que se es iniciado por los padres ayuda a que los niños dominen una comunicación con su entorno, y quienes poseen esta discapacidad de manera parcial pueden ser ayudados con terapia o incluso con la adaptación de tecnología de esta forma alcanzado una comunicación para todos.<br><br>Como se sabe la discapacidad sensorial auditiva, es un reto para los estudiantes o la población en general en lo que compete a la comunicación por que el lenguaje inclusivo de señas es un reto para el resto de la sociedad, pero la población que tiene este problema de manera parcial puede ser ayudada con tecnología tal y como es el ejemplo de los aparatos (audífonos) para la sordera benefician bastante en lo que es la inclusión en la sociedad.<br><br>“Sin duda, la intervención en toda persona con discapacidad sensorial debe iniciarse en la infancia. Cuanto antes, mejor. ya que así el niño aprenderá a vivir con ese déficit, sin que ello influya en su desarrollo posterior. Para ello, los primeros juguetes y juegos serán protagonistas del desarrollo. Ayudarán a conectar con el mundo de una manera singular pero exitosa”. (School, 2020)<br><br>La revista (School, 2020) nos dice que se debe actuar lo más pronto posible al identificar un problema sensorial preferiblemente en la infancia debido a que cuanto antes mejor porque el niño aprenderá a adaptarse con su déficit dando paso a que él pueda ser un persona activa e independiente en la sociedad.<br><br>
+      	</p>
+      	<b>Proceso de Inclusión</b><br><br>
+      	<p>
+      		Tomando el tema de la independencia y de ser una persona activa en la sociedad aun teniendo alguna discapacidad el entorno educativo y social está respaldado de la UNESCO en lo que tiende a inclusión.<br><br>La (UNESCO, es.unesco.org, 2019) nos dice que el rol de la inclusión es fomentar los sistemas educativos inclusivos que se eliminen los obstáculos a la participación y el rendimiento de todos los educandos, toman en cuenta la diversidad de sus necesidades, capacidades y particularidades, y eliminan todas las formas de discriminación en el ámbito del aprendizaje.<br><br>La UNESCO nos detalla que el rol de esta educación inclusiva es que se eliminen dichos obstáculos, mejorando el rendimiento de los profesionales, tomando en cuenta todas las particularidades que se presenten.<br><br>El sitio web (Educación Especial, 2020)  nos dicen que la discapacidad sensorial afecta a la información que reciben las personas que poseen dicha discapacidad lo cual afecta el ambiente que les rodea dificultando principalmente su comunicación ya que ellos mediante procesos inclusivos que detallo la UNESCO son seres independientes y socialmente activos.<br><br>La (UNESCO, UNESCO, 2017) nos detalla la importancia de una de las discapacidades sensoriales tal como lo es la vista ya que al igual que la audición en los primeros años de edad son primordiales captar y aprender ya que esto permite un mejor desempeño educativo y social.  Las discapacidades sensoriales son un aspecto que se ven muy a diario y lo que corresponde a la inclusión con estas discapacidades están muy a la cuenta porque son bastante evidenciadas de tal forma que ellos tienen un sistema inclusivo que les permite prepararse para ser partícipes de la sociedad.<br><br>Como bien sabemos las discapacidades sensoriales son las que afectan el aspecto auditivo y visual dando paso una gran cantidad de retos para involucrarse en esa sociedad y para la sociedad también es un reto aprender a trabajar con las personas que cuentan con una discapacidad, es bien sabido que trabajar en inclusión las personas que más aprenden y resultan beneficiadas son las que aprenden de ellos y cómo trabajar con ellos, pero también dando paso  preparar personas vulnerables a ser partícipes de la sociedad, sin importar la discapacidad que ellos posean ya sea visual o auditiva.<br><br>Esto también va de la mano con la tecnología que permitió a las personas con una discapacidad sensorial ser incluidos que permite una comunicación eficaz con ellos por medio de las TIC brindando una oportunidad, de experimentar la “normalidad” con muchos de los objetos tecnológicos que mejoran su desempeño.<br><br>
+      	</p>
+		<b>Competencias del docente</b><br><br>
+		<p>
+			En la actualidad el docente ha tenido que desarrollar varias competencias de acuerdo a las exigencias presentadas para favorecer un aprendizaje efectivo y verdaderamente significativo en los estudiantes, por aprendizaje se entiende que es la información adquirida como consecuencia de la incidencia en la educación. Un punto a destacar es el enfoque de la enseñanza, este no depende únicamente de la labor docente en las clases, también actúan las condiciones externas, materiales, la administración realizada por las autoridades educativas, la estructura organizativa y políticas de las autoridades de la institución. (Zabalza, 2007) concuerda que “la enseñanza está enmarcada en un conjunto de condiciones tanto estructurales como materiales y organizativas que afectan su desarrollo y excelencia”.<br><br>García Sánchez y Zurita (2014) menciona que optimar la calidad docente se debe tener considerar los siguientes aspectos:<br><br>
+		</p>
+		<table class="tabla1">
+			<tr>
+			  <td>La metodología</td>
+				<td>La planificación</td>
+			</tr>
+			<tr>
+				<td>Los espacios</td>
+				<td>Selección de contenidos</td>
+			</tr>
+			<tr>
+				<td>La revisión del proceso</td>
+				<td>Manual de apoyo al aprendizaje</td>
+			</tr>
+			<tr>
+				<td>Apoyo a los estudiantes</td>
+				<td>Nuevas tecnologías</td>
+			</tr>
+			<tr>
+				<td>Coordinación con los colegas</td>
+				<td>La evaluación</td>
+			</tr>
+		</table>
+    <p>
+      Algunos de los puntos antes mencionados merecen un énfasis, por ejemplo, sobre la planificación que permite decidir qué hacer, cómo hacerlo y el momento adecuado, por medio de esto podemos deducir que, si se lleva a cabo una secuenciación correcta de las actividades, prediciendo un gran número de posibles escenarios en donde se puede controlar y cumplir un proceso educativo eficaz para la praxis del docente.<br><br>Con el apoyo de TIC resulta posible concebir modelos pedagógicos más flexibles y cualificados en cuanto al funcionamiento de la escuela, los contenidos del currículo, el rol del docente y las experiencias de aprendizaje que se ofrecen al estudiante. Se debe dar un cambio sustancial en los roles que juegan estudiantes y docentes en el proceso, ya que el estudiante se vuelve gestor de su propio aprendizaje y el docente pasa a ser un facilitador, colaborador y orientados de este proceso. Un cambio de esta naturaleza en el ambiente de aprendizaje es estructural, afecta notablemente el clima escolar y posibilita formas de trabajo, que favorecen la construcción de conocimiento y la práctica de habilidades y destrezas deseables (Mazorra, 2009).<br><br>Para alcanzar diferentes tipos de aprendizaje en estudiantes es necesario reflexionar acerca del perfil y tareas que tiene un docente que utiliza TIC. Marcelo (2001) registra las siguientes competencias que debe tener el docente:<br><br>
+      Competencias tecnológicas<br><br>Se desea que el docente o formador tenga un nivel adecuado de autonomía en el manejo de herramientas que permiten crear contenido y canalizar información mediante la red, y por supuesto que también conozca las aplicaciones más utilizadas que le ayuden a su objetivo.<br><br>Competencias didácticas<br><br>Pertenecen al dominio de teorías y principios de aprendizaje, así mismo a las capacidades adaptativas a nuevos formatos de enseñanza; la creación de material y planteamiento de deberes óptimos, basándose y relacionando experiencias previas para formar al estudiante.<br><br>Competencias tutoriales<br><br>Encierran el desarrollo de habilidades comunicativas y a las capacidades adaptativas a los obstáculos y dificultades presentes en la labor docente. Al desarrollar esta competencia se podrá crear entornos sociales agradables que promuevan las relaciones colaborativas y el sentido de grupo entre los participantes para poder alcanzar un objetivo común, además de poseer una mente abierta para la aceptación de ideas, propuestas, sugerencias y realizar modificaciones en la planificación del curso.<br><br>
+    </p>
+    <b>Competencias digitales del docente</b><br><br>
+    <p>
+      Con el acelerado desarrollo de las TIC muchos docentes pelean por estar actualizados y no experimentar exclusión por los cambios que se dan en cada generación, sin embargo se genera un debate centrado en las instituciones y su capacidad de brindar modelos educativos flexibles e innovadores a los estudiantes y en cómo las TIC le dan paso al estudiante de obtener competencias profesionales que se necesitan en la actual sociedad y el mundo laborar, poca mención tiene la continua formación y especialización docente, totalmente de acuerdo con Amaya, Zúñiga M, y Salazar B, (2018) que nos menciona que se pierde el enfoque del modelo docente y estudiante, donde es necesario aprender, desaprender y reaprender para estar ad hoc a las exigencias educativas procedentes de la globalización y la virtualización del aprendizaje. <br><br>Actualmente existen avances hacia el portafolio de la competencia digital docente, a diferencia de la propuesta presentada en el 2013 por él (Marco Común de Competencia Digital Docente), en donde se describe de cada una de las competencias de cinco áreas importantes, también se redefine los tres niveles de las competencias, y definen seis subniveles competenciales. La siguiente ilustración comparativa fue validada por expertos entre el 30 de noviembre y 15 de diciembre del 2016, además se publicó en base a las conclusiones del nuevo Marco de Competencia Digital Docente en 2017.<br><br>
+    </p>
+    <img src="imagenes/">
+    </div>
+    <div class="resultados">
+    	<b class="subtema">Posibles resultados</b><br><br><br>
+      <p>
+        Los docentes supieron manifestar opiniones positivas acerca de la página web; mencionaron que es de su agrado debido a que toda la información de varias herramientas, también comunicaron su experiencia acerca de la interfaz amigable.
+      </p>
+    </div>
+    <div class="conclusiones">
+    	<b class="subtema">Conclusiones</b><br><br><br>
+      <p>
+        El impacto de las herramientas digitales para el desarrollo habilidades en lenguaje de señas y brille a los docentes  fue valorado por medio de una entrevista, dando resultados positivos sobre el uso de la página web.
+      </p>
+    </div>
+  </div>
+  <footer>
+      <div class="utmach">
+          <img src="imagenes/LOGO_OUT.png">
+      </div>
+      <div class="integrantes">
+          <h3>Integrantes</h3>
+          <p>
+              Campoverde Agurto Marco Paul<br>
+              Campoverde Chenche Walter Javier<br>
+              Castro Prado Kevin Alexis<br>
+              Gonzalez Gualotuña Jonnathan Javier
+          </p>
+      </div>
+      <div class="redes">
+          <span>@2021 Aprendizaje de Lenguaje de Señas y Braille</span>
+      </div>
+  </footer>
+  <script src="js/proyecto.js"></script>
+</body>
+</html>

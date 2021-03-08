@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprender nuevos lenguajes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
+    <link href="css/cssmenu.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="menuDemo">
+    <!--CssMenu-->
+    <div id="cssmenu">
+        <ul>
+            <li><a href="#I">Inicio</a></li>
+            <li><a href="#app">Aplicaciones móviles</a></li>
+            <li><a href="#curso">Cursos de aprendizaje</a></li>
+            <li><a href="proyecto.html" target="_BLANK">Proyecto</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon-wrapper">
+       <div class="menu-icon" onclick="toggleCssMenu(this)">
+          <div class="three-line">
+             <span></span>
+             <span></span>
+             <span></span>
+          </div>
+       </div>
+    </div>
+    <script>
+        function toggleCssMenu(icon) {
+            var cssmenu = document.getElementById('cssmenu');
+            if (icon.className.indexOf('active') == -1) {
+                icon.className = 'menu-icon active';
+			 cssmenu.style.display = "block";
+			 setTimeout(function(){cssmenu.className = 'active';},0);            
+            }
+            else {
+                icon.className = 'menu-icon';
+			 cssmenu.className = '';
+			 setTimeout(function(){cssmenu.style.display = "none";},411); 
+            }
+        }
+    </script>
+    <!--CssMenu-->
+    </div>
+
+    <div class="primer-contenedor">
+        <img src="imagenes/imagen.png" class="imagen-principal">
+        <h1 id="I">APRENDIZAJE DE LENGUA DE SEÑAS Y BRAILLE</h1>
+        <h3>⠨⠁ ⠨⠏  ⠨⠗  ⠨⠑  ⠨⠝  ⠨⠙  ⠨⠊  ⠨⠵  ⠨⠁ ⠨⠚  ⠨⠑    ⠨⠙  ⠨⠑    ⠨⠇  ⠨⠑  ⠨⠝  ⠨⠛  ⠨⠥  ⠨⠁   ⠨⠙  ⠨⠑    ⠨⠎  ⠨⠑  ⠨⠻  ⠨⠁ ⠨⠎    ⠨⠽    ⠨⠃  ⠨⠗  ⠨⠁ ⠨⠊  ⠨⠇  ⠨⠇  ⠨⠑</h3>
+        <img src="imagenes/tema.JPG">
+        <span class="span"><i>Aprender es vivir</i></span>
+        <span>⠨⠁ ⠏  ⠗  ⠑  ⠝  ⠙  ⠑  ⠗    ⠑  ⠎    ⠧  ⠊  ⠧  ⠊  ⠗</span><br>
+        <p>Bienvenidos a este espacio de transmisión de conocimiento, proyecto nacido de la pasión de estudiantes de la Universidad Técnica de Machala y lleno de contenido dedicado al aprendizaje. Explora el sitio y lo que tiene para ofrecerte, quizá logre ayudarte a encontrar tu propia pasión.</p>
+        <p class="braille">
+        	  ⠨⠃  ⠊  ⠑  ⠝  ⠧  ⠑  ⠝  ⠊  ⠙  ⠕  ⠎    ⠁   ⠑  ⠎  ⠞  ⠑    ⠑  ⠎  ⠏  ⠁ ⠉  ⠊  ⠕    ⠙  ⠑    ⠞  ⠗  ⠁ ⠝  ⠎  ⠍  ⠊  ⠎  ⠊  ⠝    ⠙  ⠑    ⠉  ⠕  ⠝  ⠕  ⠉  ⠊  ⠍  ⠊  ⠑  ⠝  ⠞  ⠕    ⠏  ⠗  ⠕  ⠽  ⠑  ⠉  ⠞  ⠕    ⠝  ⠁ ⠉  ⠊  ⠙  ⠕    ⠙  ⠑    ⠇  ⠁   ⠏  ⠁ ⠎  ⠊  ⠝    ⠙  ⠑    ⠑  ⠎  ⠞  ⠥  ⠙  ⠊  ⠁ ⠝  ⠞  ⠑  ⠎    ⠙  ⠑    ⠇  ⠁   ⠨⠥  ⠝  ⠊  ⠧  ⠑  ⠗  ⠎  ⠊  ⠙  ⠁ ⠙    ⠨⠞  ⠉  ⠝  ⠊  ⠉  ⠁   ⠙  ⠑    ⠨⠍  ⠁ ⠉  ⠓  ⠁ ⠇  ⠁   ⠽    ⠇  ⠇  ⠑  ⠝  ⠕    ⠙  ⠑    ⠉  ⠕  ⠝  ⠞  ⠑  ⠝  ⠊  ⠙  ⠕    ⠙  ⠑  ⠙  ⠊  ⠉  ⠁ ⠙  ⠕    ⠁ ⠇    ⠁ ⠏  ⠗  ⠑  ⠝  ⠙  ⠊  ⠵  ⠁ ⠚  ⠑    ⠨⠑  ⠭  ⠏  ⠇  ⠕  ⠗  ⠁   ⠑  ⠇    ⠎  ⠊  ⠞  ⠊  ⠕    ⠽    ⠇  ⠕    ⠟  ⠥  ⠑    ⠞  ⠊  ⠑  ⠝  ⠑    ⠏  ⠁ ⠗  ⠁   ⠕  ⠋  ⠗  ⠑  ⠉  ⠑  ⠗  ⠞  ⠑    ⠟  ⠥  ⠊  ⠵    ⠇  ⠕  ⠛  ⠗  ⠑    ⠁ ⠽  ⠥  ⠙  ⠁ ⠗  ⠞  ⠑    ⠁   ⠑  ⠝  ⠉  ⠕  ⠝  ⠞  ⠗  ⠁ ⠗    ⠞  ⠥    ⠏  ⠗  ⠕  ⠏  ⠊  ⠁   ⠏  ⠁ ⠎  ⠊  ⠝ 
+        </p>
+        <span class="span">Explora</span>
+        <span>  ⠨⠑  ⠭  ⠏  ⠇  ⠕  ⠗  ⠁</span>
+        <img src="imagenes/explora.JPG" class="explora">
+    </div>
+            
+    <div class="contenedor-2">
+        <nav>
+            <span><i>Todas las entradas</i></span>
+        </nav>
+        <div class="contenedor-de-entradas">
+            <div class="entrada" id="app">
+                <article>
+                    <div class="imagen">
+                        <a href="app.html" target="_BLANK">
+                            <img src="imagenes/imagen1.jpg" title="Aplicaciones para aprender Lengua de Señas y Brialle">
+                        </a>
+                    </div>
+                    <div class="descripcion">
+                        <a href="app.html" target="_BLANK">
+                            <span><b>Aplicaciones Moviles</b></span>
+                            <img src="imagenes/app.JPG" class="app">
+                            <p><i>Las aplicaciones móviles son actualmente un sistema de enseñanza autodidacta que permite a cualquier persona desarrollar conocimientos en alguna área específica</i></p>
+                        </a>
+                        <p class="braille">
+                            ⠨⠇  ⠁ ⠎    ⠁ ⠏  ⠇  ⠊  ⠉  ⠁ ⠉  ⠊  ⠕  ⠝  ⠑  ⠎    ⠍  ⠧  ⠊  ⠇  ⠑  ⠎    ⠎  ⠕  ⠝    ⠁ ⠉  ⠞  ⠥  ⠁ ⠇  ⠍  ⠑  ⠝  ⠞  ⠑    ⠥  ⠝    ⠎  ⠊  ⠎  ⠞  ⠑  ⠍  ⠁   ⠙  ⠑    ⠑  ⠝  ⠎  ⠑  ⠻  ⠁ ⠝  ⠵  ⠁   ⠁ ⠥  ⠞  ⠕  ⠙  ⠊  ⠙  ⠁ ⠉  ⠞  ⠁   ⠟  ⠥  ⠑    ⠏  ⠑  ⠗  ⠍  ⠊  ⠞  ⠑    ⠁   ⠉  ⠥  ⠁ ⠇  ⠟  ⠥  ⠊  ⠑  ⠗    ⠏  ⠑  ⠗  ⠎  ⠕  ⠝  ⠁   ⠙  ⠑  ⠎  ⠁ ⠗  ⠗  ⠕  ⠇  ⠇  ⠁ ⠗    ⠉  ⠕  ⠝  ⠕  ⠉  ⠊  ⠍  ⠊  ⠑  ⠝  ⠞  ⠕  ⠎    ⠑  ⠝    ⠁ ⠇  ⠛  ⠥  ⠝  ⠁   ⠗  ⠑  ⠁   ⠑  ⠎  ⠏  ⠑  ⠉  ⠋  ⠊  ⠉  ⠁
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="entrada" id="curso">
+                <article>
+                    <div class="imagen">
+                        <a href="cursos.html" target="_BLANK">
+                            <img src="imagenes/imagen1.jpg" title="Cursos para aprender Lengua de Señas y Braille">
+                        </a>
+                    </div>
+                    <div class="descripcion">
+                        <a href="cursos.html" target="_BLANK">
+                            <span><b>Cursos Gratuitos</b></span>
+                            <img src="imagenes/cursos.JPG" class="app">
+                            <p><i>La utilización de los cursos en linea gratuitos para el aprendizaje de alguna habilidad o el desarrollo de la misma es algo muy utilizado actualmente.</i></p>
+                        </a>
+                        <p class="braille">
+                        	⠨⠇  ⠁   ⠥  ⠞  ⠊  ⠇  ⠊  ⠵  ⠁ ⠉  ⠊  ⠝    ⠙  ⠑    ⠇  ⠕  ⠎    ⠉  ⠥  ⠗  ⠎  ⠕  ⠎    ⠑  ⠝    ⠇  ⠊  ⠝  ⠑  ⠁   ⠛  ⠗  ⠁ ⠞  ⠥  ⠊  ⠞  ⠕  ⠎    ⠏  ⠁ ⠗  ⠁   ⠑  ⠇    ⠁ ⠏  ⠗  ⠑  ⠝  ⠙  ⠊  ⠵  ⠁ ⠚  ⠑    ⠙  ⠑    ⠁ ⠇  ⠛  ⠥  ⠝  ⠁   ⠓  ⠁ ⠃  ⠊  ⠇  ⠊  ⠙  ⠁ ⠙    ⠕    ⠑  ⠇    ⠙  ⠑  ⠎  ⠁ ⠗  ⠗  ⠕  ⠇  ⠇  ⠕    ⠙  ⠑    ⠇  ⠁   ⠍  ⠊  ⠎  ⠍  ⠁   ⠑  ⠎    ⠁ ⠇  ⠛  ⠕    ⠍  ⠥  ⠽    ⠥  ⠞  ⠊  ⠇  ⠊  ⠵  ⠁ ⠙  ⠕    ⠁ ⠉  ⠞  ⠥  ⠁ ⠇  ⠍  ⠑  ⠝  ⠞  ⠑ 
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-3" id="contact">
+            <div class="contacto">
+                <b>Contacto</b><br>
+                <span>⠨⠉  ⠕  ⠝  ⠞  ⠁ ⠉  ⠞  ⠕</span><br>
+                <img src="imagenes/contacto.JPG">
+                <p>
+                    Campoverde Agurto Marco Paul<br>
+                    wcampover2@utmchala.edu.ec<br>
+                    kcastro4@utmachala.edu.ec<br>
+                    jgonzalez8@utmachala.edu.ec
+                </p>
+            </div>
+            <form class="form">
+                <h3>Contacta con nosotros</h3>
+                <h4>⠨⠉  ⠕  ⠝  ⠞  ⠁ ⠉  ⠞  ⠁   ⠉  ⠕  ⠝    ⠝  ⠕  ⠎  ⠕  ⠞  ⠗  ⠕  ⠎</h4>
+                <img src="imagenes/contacta.JPG">
+                <div class="form_section">
+                    <input type="text" class="form_input" placeholder="Asunto">
+                </div>
+                <div class="form_section">
+                    <input type="email" class="form_input" placeholder="email">
+                </div>
+                <div class="form_section">
+                    <textarea class="form_input" placeholder="Escriba su mensaje"></textarea>
+                </div>
+                <div class="form_section">
+                    <input type="submit" class="form_input">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="utmach">
+                <img src="imagenes/LOGO_OUT.png">
+            </div>
+            <div class="integrantes">
+                <h3>Integrantes</h3>
+                <p>
+                    Campoverde Agurto Marco Paul<br>
+                    Campoverde Chenche Walter Javier<br>
+                    Castro Prado Kevin Alexis<br>
+                    Gonzalez Gualotuña Jonnathan Javier
+                </p>
+            </div>
+            <div class="redes">
+                <span>@2021 Aprendizaje de Lenguaje de Señas y Braille</span>
+            </div>
+        </footer>
+</body>
+</html>

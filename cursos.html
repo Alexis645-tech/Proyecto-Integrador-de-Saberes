@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cursos Gratuitos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
+	<link rel="stylesheet" type="text/css" href="css/cursos.css">
+	<link href="css/cssmenu.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="menuDemo">
+    <!--CssMenu-->
+    <div id="cssmenu">
+        <ul>
+            <li><a href="index.html" target="_BLANK">Inicio</a></li>
+            <li><a href="app.html" target="_BLANK">Aplicaciones móviles</a></li>
+            <li><a href="#curso">Cursos de aprendizaje</a></li>
+            <li><a href="proyecto.html" target="_BLANK">Proyecto</a></li>
+            <li><a href="index.html #contact" target="_BLANK">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon-wrapper">
+       <div class="menu-icon" onclick="toggleCssMenu(this)">
+          <div class="three-line">
+             <span></span>
+             <span></span>
+             <span></span>
+          </div>
+       </div>
+    </div>
+    <script>
+        function toggleCssMenu(icon) {
+            var cssmenu = document.getElementById('cssmenu');
+            if (icon.className.indexOf('active') == -1) {
+                icon.className = 'menu-icon active';
+			 cssmenu.style.display = "block";
+			 setTimeout(function(){cssmenu.className = 'active';},0);            
+            }
+            else {
+                icon.className = 'menu-icon';
+			 cssmenu.className = '';
+			 setTimeout(function(){cssmenu.style.display = "none";},411); 
+            }
+        }
+    </script>
+    <!--CssMenu-->
+    </div>
+    <div class="contenedor-1" id="curso">
+    	<div class="curso">
+    		<a href="https://edutin.com/lengua-de-se%C3%B1as-colombia-4198" target="_BLANK">
+    			<img src="imagenes/curso1.png" title="Curso gratuito de Colombia">
+    		</a>
+    		<h3>Acerca del curso</h3>
+    		<p>
+    			El curso de lengua de señas tiene el propósito que el estudiante conozca, comprenda y aplique los fundamentos de la lengua de señas, con el fin de fomentar la inclusión, la comunicación y la interacción con las personas que posean alguna discapacidad auditiva. Es fácil de aprender y es recomendado para personas con alguna condición de sordera o individuos que deseen capacitarse para la atención de personas con dicha condición.
+    		</p>
+    	</div>
+    	<div class="curso">
+    		<a href="https://www.facebook.com/lsec.ambato/" target="_BLANK">
+    			<img src="imagenes/curso2.jpg" title="Curso de paga de Ecuador">
+    		</a>
+    		<h3>Acerca del curso</h3>
+    		<p>
+    			Saber un nuevo idioma para poder comunicarnos es gratificante, pero pasar a considerarlo como profesión, en ese caso, de intérprete de lengua de Señas, es la suma de buen manejo de señas, comprendiendo la importancia de configuraciones manuales, características, estructura gramatical, convivencia con la comunidad sorda, entender su mundo, cultura y costumbres, su lucha, sobre todo, es la preparación de años tras años, para entregar mensaje correcto y veraz a las personas Sordas.
+    		</p>
+    	</div>
+    	<div class="curso">
+    		<a href="https://masoportunidades.org/aprende-lenguaje-senas-pais-videos-gratuitos-online/" target="_BLANK">
+    			<img src="imagenes/curso3.png" title="Videos gratuitos online">
+    		</a>
+    		<h3>Acerca del curso</h3>
+    		<p>
+    			La lengua de señas es un mecanismo que tienen las personas con pérdida auditiva o sordas  para comunicarse con los demás, pero te has preguntado ¿cómo es ese lengua en los demás países?<br>
+    			Estos canales de youtube nos permiten conocer más sobre la lengua de señas en países de habla hispana. ¡Aprende el lenguaje de señas!
+    		</p>
+    	</div>
+    	<div class="curso">
+    		<a href="https://www.youtube.com/watch?v=l0M3Rwc42FM&list=PLl1yw-s7RTn581u_SskJE3tww8SkbaAe4" target="_BLANK">
+    			<img src="imagenes/curso4.jpg" title="Curso en youtube" class="curso4">
+    		</a>
+    		<h3>Acerca del curso</h3>
+    		<p>
+    			Curso de lenguaje de señas del Gobierno de Pichincha, segundo nivel.
+    		</p>
+    	</div>
+    	<div class="curso">
+    		<a href="https://www.youtube.com/watch?v=KZkYxXgcnt4&feature=youtu.be" target="_BLANK">
+    			<img src="imagenes/curso5.jpg" title="Curso de Braille en youtube" class="curso4">
+    		</a>
+    		<h3>Acerca del curso</h3>
+    		<p>
+    			Aprenda Braille Fácilmente en 10 Minutos usando unos cartones de huevos y bolas de ping pong.
+    		</p>
+    	</div>
+    </div>
+
+    <footer>
+        <div class="utmach">
+            <img src="imagenes/LOGO_OUT.png">
+        </div>
+        <div class="integrantes">
+            <h3>Integrantes</h3>
+            <p>
+                Campoverde Agurto Marco Paul<br>
+                Campoverde Chenche Walter Javier<br>
+                Castro Prado Kevin Alexis<br>
+                Gonzalez Gualotuña Jonnathan Javier
+            </p>
+        </div>
+        <div class="redes">
+            <span>@2021 Aprendizaje de Lenguaje de Señas y Braille</span>
+        </div>
+    </footer>
+</body>
+</html>

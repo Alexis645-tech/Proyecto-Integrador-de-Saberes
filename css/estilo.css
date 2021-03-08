@@ -1,0 +1,289 @@
+.primer-contenedor {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background: #074A73;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.primer-contenedor .imagen-principal {
+	width: 940px;
+	height: 440px;
+	margin-top: 40px;
+}
+.primer-contenedor h1 {
+	color: #fff;
+	font-size: 72px;
+	text-align: center;
+	margin-top: 40px;
+}
+.primer-contenedor h3 {
+	color: #fff;
+	margin-top: -20px;
+}
+.primer-contenedor i {
+	font-size: 20px;
+	color: #fff;
+}
+.primer-contenedor p {
+	font-size: 15px;
+	color: #fff;
+	text-align: justify;
+	line-height: 2;
+	font-family: sans-serif;
+	width: 75%;
+}
+.primer-contenedor .span {
+	color: #fff;
+	font-size: 20px;
+	margin: 40px 0 0;
+}
+.primer-contenedor span {
+	color: #fff;
+	margin: 10px;
+}
+.explora {
+	margin-bottom: 30px;
+}
+
+.contenedor-2 {
+	display: flex;
+	height: 1140px;
+	background: #ffffff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.contenedor-2 nav {
+	width: 75%;
+	margin: 0 40px 30px;
+}
+.contenedor-2 nav span i {
+	font-size: 20px;
+	padding: 20px;
+}
+.contenedor-de-entradas {
+	width: 980px;
+	height: 767px;
+	display: flex;
+	flex-direction: column;
+}
+.entrada {
+	width: 972px;
+	height: 385px;
+	display: flex;
+	padding: 15px;
+	margin: 10px 0;
+}
+article {
+	width: 940px;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	outline: 2px solid rgb(193 201 206);
+}
+.imagen {
+	width: 469px;
+	height: 351px;
+}
+.imagen img {
+	object-fit: cover;
+	width: 469px;
+	height: 351px;
+}
+.descripcion a {
+	text-decoration: none;
+	color: #000;
+}
+.descripcion {
+	width: 469px;
+	height: 351px;
+	padding: 50px;
+}
+.descripcion span b {
+	font-size: 22px;
+}
+.app {
+	padding-bottom: 20px;
+}
+.descripcion p i {
+	font-size: 15px;
+	font-family: 'italic';
+	line-height: 1.5;
+}
+
+@media only screen and (max-width: 1000px){
+	.primer-contenedor h1 {
+		font-size: 32px;
+	}
+	.primer-contenedor .imagen-principal {
+		width: 300px;
+		height: 150px;
+	}
+	.explora {
+		width: 50%;
+	}
+
+	.braille {
+		display: none;
+	}
+
+	.contenedor-2 {
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.contenedor-2 nav {
+		padding: 0;
+		margin: 0;
+	}
+	.contenedor-2 nav span i {
+		padding: 0;
+		margin: 0;
+	}
+	.contenedor-de-entradas {
+		flex-direction: column;
+		width: 95%;
+		align-items: center;
+	}
+	.entrada {
+		width: 90%;
+		padding: 0 5px;
+		margin: 30px 0;
+		outline: 5px solid rgb(193 201 206);
+	}
+	article {
+		flex-direction: column;
+		width: 100%;
+		outline: none;
+		padding: 5px;
+		align-items: center;
+	}
+	.imagen {
+		width: 200px;
+	}
+	.imagen img {
+		width: 200px;
+		height: 150px;
+		padding: 0;
+	}
+	.descripcion {
+		width: 100%;
+		padding: 0;
+	}
+	.descripcion span b {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.descripcion p i {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.contenedor-3 {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #06263b;
+	padding: 20px;
+	border: 14px solid #34acc4;
+	outline: 3px  solid #06263b;
+	width: 100%;
+	height: 800px;
+}
+.contacto {
+	padding: 30px;
+	line-height: 2;
+	text-align: center;
+	color: #fff;
+}
+.contacto b {
+	font-size: 30px;
+}
+.form {
+	min-width: 400px;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	order: 5;
+}
+.form h3 {
+	color: #fff;
+	margin-bottom: 5px;
+}
+.form h4 {
+	color: #fff;
+}
+.form_input {
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 3px solid #1c7;
+	background: transparent;
+	color: #fff;
+}
+.form_input:focus {
+	background: linear-gradient(to bottom, transparent, #222);
+	outline: none;
+	border-bottom: 3px solid #5f9;
+}
+.form textarea {
+	min-height: 140px;
+	resize: none;
+}
+.form input[type="submit"] {
+	background: #094;
+	border-bottom: none;
+	padding: 12px;
+}
+.form input[type="submit"]:hover {
+	background: #072;
+	border-bottom: none;
+	padding: 12px;
+	cursor: pointer;
+}
+.form input[type="submit"]:focus {
+	background: #094;
+}
+.form input[type="submit"]:active {
+	background: linear-gradient(to bottom, #072, #050);
+}
+
+footer {
+	width: 100%;
+	height: 100%;
+	background: rgb(6 38 59);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+.utmach img {
+	width: 200px;
+	min-width: 50px;
+	margin: 0 20px;
+	padding: 20px;
+}
+.integrantes {
+	width: 300px;
+	margin: 0 30px;
+	align-self: center;
+	color: #fff;
+	text-align: center;
+	line-height: 2;
+	padding: 20px;
+}
+.redes {
+	color: #fff;
+	align-self: center;
+}
