@@ -43,6 +43,12 @@
 	color: #fff;
 	margin: 10px;
 }
+
+.audio1{
+	align-self: flex-start;
+	margin: 10px 0 0 10px;
+}
+
 .explora {
 	margin-bottom: 30px;
 }
@@ -114,6 +120,75 @@ article {
 	line-height: 1.5;
 }
 
+
+.seccion {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	margin: 10px 0;
+	justify-content: center;
+}
+section {
+	padding: 40px;
+	outline: 2px solid rgb(193 201 206);
+	text-align: center;
+}
+section h3 {
+	font-size: 50px;
+	margin: 0 0 20px;
+}
+.Lenguajes{
+	display: flex;
+	justify-content: center;
+}
+.SubMenu{
+	margin: 10px;
+	width: 45%;
+}
+.SubMenu button{
+	width: 100%;
+	font-size: 20px;
+}
+
+.Señas{
+	display: none;
+	flex-direction: column;
+}
+
+.Braille{
+	flex-direction: column;
+}
+
+.imagenes {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.alfabeto{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+button{
+	width: 10%;
+	margin: 10px 10px 0;
+	background-color: transparent;
+	border-radius: 1rem;
+	padding: 10px 0;
+	box-shadow: 2px 2px 7px #000;
+}
+button:hover{
+	cursor: pointer;
+}
+button img{
+	width: 40px;
+	height: 65px;
+}
+
+
+
 @media only screen and (max-width: 1000px){
 	.primer-contenedor h1 {
 		font-size: 32px;
@@ -126,9 +201,35 @@ article {
 		width: 50%;
 	}
 
-	.braille {
+	.brailleText {
 		display: none;
 	}
+
+
+	section{
+		padding: 5px;
+		margin: 5px;
+	}
+	section h3{
+		font-size: 30px;
+		margin: 5px 0;
+	}
+	.seccion {
+		margin: 20px 0;
+		padding: 10px 0;
+	}
+	.SubMenu{
+		margin: 0;
+	}
+	.SubMenu button{
+	width: 90%;
+	font-size: 15px;
+	}
+	button img{
+	width: 20px;
+	height: 30px;
+	}
+
 
 	.contenedor-2 {
 		width: 100%;
@@ -286,4 +387,170 @@ footer {
 .redes {
 	color: #fff;
 	align-self: center;
+}
+
+
+.ABraille{
+	display: flex;
+}
+.BBraille{
+	display: none;
+}
+.CBraille{
+	display: none;
+}
+.DBraille{
+	display: none;
+}
+.EBraille{
+	display: none;
+}
+.FBraille{
+	display: none;
+}
+.GBraille{
+	display: none;
+}
+.HBraille{
+	display: none;
+}
+.IBraille{
+	display: none;
+}
+.JBraille{
+	display: none;
+}
+.KBraille{
+	display: none;
+}
+.LBraille{
+	display: none;
+}
+.MBraille{
+	display: none;
+}
+.NBraille{
+	display: none;
+}
+.ÑBraille{
+	display: none;
+}
+.OBraille{
+	display: none;
+}
+.PBraille{
+	display: none;
+}
+.QBraille{
+	display: none;
+}
+.RBraille{
+	display: none;
+}
+.SBraille{
+	display: none;
+}
+.TBraille{
+	display: none;
+}
+.UBraille{
+	display: none;
+}
+.VBraille{
+	display: none;
+}
+.WBraille{
+	display: none;
+}
+.XBraille{
+	display: none;
+}
+.YBraille{
+	display: none;
+}
+.ZBraille{
+	display: none;
+}
+
+
+.ASeñas{
+	display: flex;
+}
+.BSeñas{
+	display: none;
+}
+.CSeñas{
+	display: none;
+}
+.DSeñas{
+	display: none;
+}
+.ESeñas{
+	display: none;
+}
+.FSeñas{
+	display: none;
+}
+.GSeñas{
+	display: none;
+}
+.HSeñas{
+	display: none;
+}
+.ISeñas{
+	display: none;
+}
+.JSeñas{
+	display: none;
+}
+.KSeñas{
+	display: none;
+}
+.LSeñas{
+	display: none;
+}
+.MSeñas{
+	display: none;
+}
+.NSeñas{
+	display: none;
+}
+.ÑSeñas{
+	display: none;
+}
+.OSeñas{
+	display: none;
+}
+.PSeñas{
+	display: none;
+}
+.QSeñas{
+	display: none;
+}
+.RSeñas{
+	display: none;
+}
+.SSeñas{
+	display: none;
+}
+.TSeñas{
+	display: none;
+}
+.USeñas{
+	display: none;
+}
+.VSeñas{
+	display: none;
+}
+.WSeñas{
+	display: none;
+}
+.XSeñas{
+	display: none;
+}
+.YSeñas{
+	display: none;
+}
+.ZSeñas{
+	display: none;
 }

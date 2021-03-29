@@ -1,0 +1,95 @@
+
+body {
+	width: 100%;
+}
+
+.containerVideosBraille{
+	display: flex;
+	background: #8081F6;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px 10px 0;
+	font-size: 50px;
+	width: 100%;
+}
+
+.containerVideo{
+	width: 45%;
+	border: 2px solid #156;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #0001FE;
+	margin: 30px 20px;
+	box-shadow: 2px 2px 7px #000;
+	border-radius: 1rem;
+}
+
+.containerVideos{
+	display: flex;
+	background: #9E81F6;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.titleVideo{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+}
+
+.video{
+	padding: 0 20px 20px;
+}
+
+@media only screen and (max-width: 900px){
+	.containerVideo{
+		width: 90%;
+	}
+
+	.titleVideo{
+		font-size: 20px;
+	}
+
+	iframe{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+footer {
+	width: 100%;
+	height: 100%;
+	background: rgb(6 38 59);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+.utmach img {
+	width: 200px;
+	min-width: 50px;
+	margin: 0 20px;
+	padding: 20px;
+}
+.integrantes {
+	width: 300px;
+	margin: 0 30px;
+	align-self: center;
+	color: #fff;
+	text-align: center;
+	line-height: 2;
+	padding: 20px;
+}
+.redes {
+	color: #fff;
+	align-self: center;
+}

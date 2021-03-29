@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Videos Educativos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
+    <link href="css/cssmenu.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/videos.css">
+    <meta charset="utf-8">
+</head>
+<body>
+	<div id="menuDemo">
+    <!--CssMenu-->
+    <div id="cssmenu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="app.html">Aplicaciones móviles</a></li>
+            <li><a href="cursos.html">Cursos de aprendizaje</a></li>
+            <li><a href="proyecto.html">Proyecto</a></li>
+            <li><a href="index.html #contact">Contacto</a></li>
+            <li><a href="#videos">Videos Educativos</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon-wrapper">
+       <div class="menu-icon" onclick="toggleCssMenu(this)">
+          <div class="three-line">
+             <span></span>
+             <span></span>
+             <span></span>
+          </div>
+       </div>
+    </div>
+    <script>
+        function toggleCssMenu(icon) {
+            var cssmenu = document.getElementById('cssmenu');
+            if (icon.className.indexOf('active') == -1) {
+                icon.className = 'menu-icon active';
+			 cssmenu.style.display = "block";
+			 setTimeout(function(){cssmenu.className = 'active';},0);            
+            }
+            else {
+                icon.className = 'menu-icon';
+			 cssmenu.className = '';
+			 setTimeout(function(){cssmenu.style.display = "none";},411); 
+            }
+        }
+    </script>
+    <!--CssMenu-->
+    </div>
+
+    <div class="containerVideosBraille">
+    	<h2 id="videos">Braille</h2>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>Aprenda Braille usando unos cartones de huevos y bolas de ping pong</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/KZkYxXgcnt4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>COMO USAR LA REGLETA PARA ESCRIBIR EN BRAILLE</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/LfS5pCwa1s0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>COMO ESCRIBIR Y LEER EN BRAILLE CON REGLETA Y PUNZÓN</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/DHCyr6F8sDU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>COMO ESCRIBIR NÚMEROS EN BRAILLE</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/SvVNz5XCRBU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    </div>
+    <div class="containerVideos">
+    	<h2>Lengua de Señas</h2>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>ABECEDARIO | Lengua de Señas Ecuatoriana</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/K6tuWefifxc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>Los números - Lengua de señas ecuatoriana</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/ik8WhGlp-Aw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>COLORES | LENGUA DE SEÑAS ECUATORIANA</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/Vc-fjySXD3o?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    	<div class="containerVideo">
+    		<div class="titleVideo">
+  				<span>SALUDOS y DESPEDIDAS en Lengua de Señas Ecuatoriana</span>
+    		</div>
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/hMdReGv2Zbs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		</div>
+    	</div>
+    </div>
+    <footer>
+        <div class="utmach">
+            <img src="imagenes/LOGO_OUT.png">
+        </div>
+        <div class="integrantes">
+            <h3>Integrantes</h3>
+            <p>
+                Campoverde Agurto Marco Paul<br>
+                Campoverde Chenche Walter Javier<br>
+                Castro Prado Kevin Alexis<br>
+                Gonzalez Gualotuña Jonnathan Javier
+            </p>
+        </div>
+        <div class="redes">
+            <span>@2021 Aprendizaje de Lenguaje de Señas y Braille</span>
+        </div>
+    </footer>
+</body>
+</html>

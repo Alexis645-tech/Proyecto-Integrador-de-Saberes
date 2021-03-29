@@ -89,6 +89,7 @@ b {
 }
 
 .tabla1 {
+  margin: 20px;
   text-align: center;
 }
 
@@ -128,6 +129,13 @@ b {
   .objetivos {
     width: 100%;
     margin: 10px 0;
+  }
+  .tabla1{
+    margin: 10px 0;
+  }
+  .tabla1 td{
+    margin: 5px 0;
+    padding: 5px 0;
   }
 }
 
