@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/.idea.Proyecto-Integrador-de-Saberes.iml
+/contentModel.xml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../../:\Users\Alexis-PC\Documents\ALEXIS\Universidad\7mo Semestre\ENSEÑANZA-APRENDIZAJE DE PROGRAMACIÓN WEB\Página de práctica\Proyecto-Integrador-de-Saberes\Proyecto-Integrador-de-Saberes\.idea\.idea.Proyecto-Integrador-de-Saberes.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

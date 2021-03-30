@@ -1,0 +1,50 @@
+body{
+	width: 100%;
+	overflow-x: hidden;
+	background: #fbdb65;
+}
+
+.inicio {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 0;
+	align-items: center;
+}
+
+.containerImagenes{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px 0;
+}
+.imagenes{
+	margin: auto;
+}
+
+.containerBotones{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.botones {
+	margin: 20px;
+	width: 45%;
+	height: 100px;
+	background-color: #6699cc;
+	display: flex;
+	justify-content: center;
+	border-radius: 1rem;
+	box-shadow: 2px 2px 7px #000;
+}
+.botones:hover{
+	cursor: pointer;
+}
+button{
+	background-color: transparent;
+	border: none;
+	font-size: 2rem;
+}
+button:hover{
+	cursor: pointer;
+}

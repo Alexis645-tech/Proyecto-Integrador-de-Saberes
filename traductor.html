@@ -1,0 +1,127 @@
+<html> 
+<head>
+	<link id="css" href="css/braille-big.css" rel="stylesheet">
+	<link href="css/demo.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="br.gif">
+    <title>Traductor-Braille</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
+    <link href="css/cssmenu.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <meta charset="utf-8">
+
+	<script src="js/braille-tools.js"></script>
+	<script language="javascript">
+		function elem(id){
+			return document.getElementById(id);
+		}
+		function showBraille() {
+			var message = elem("txtBraille").value;
+			elem('myBraille').innerHTML=br.braille(message);
+		}
+		function BrText() {
+			var message = elem("txtBr").value;
+			elem('myBr').innerHTML=br.braille(message);
+		}
+		function setCSS(size) {
+			elem('css').href='css/braille-'+size+'.css';
+		}
+	</script>
+</head>
+<body>
+
+	<div id="menuDemo">
+    <!--CssMenu-->
+    <div id="cssmenu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="app.html">Aplicaciones móviles</a></li>
+            <li><a href="cursos.html">Cursos de aprendizaje</a></li>
+            <li><a href="proyecto.html">Proyecto</a></li>
+            <li><a href="videos.html">Videos Educativos</a></li>
+            <li><a href="traductor.html">Traductor</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon-wrapper">
+       <div class="menu-icon" onclick="toggleCssMenu(this)">
+          <div class="three-line">
+             <span></span>
+             <span></span>
+             <span></span>
+          </div>
+       </div>
+    </div>
+    <script>
+        function toggleCssMenu(icon) {
+            var cssmenu = document.getElementById('cssmenu');
+            if (icon.className.indexOf('active') == -1) {
+                icon.className = 'menu-icon active';
+			 cssmenu.style.display = "block";
+			 setTimeout(function(){cssmenu.className = 'active';},0);            
+            }
+            else {
+                icon.className = 'menu-icon';
+			 cssmenu.className = '';
+			 setTimeout(function(){cssmenu.style.display = "none";},411); 
+            }
+        }
+    </script>
+    <!--CssMenu-->
+    </div>
+
+
+<p><br/><strong>Traductor</strong> de Braille </p>
+ 
+	<input id="txtBr" value="Traduce" class="form-control pull-left" type="text" style="width:200px"> 
+	<input id="btnBr" type="submit" value="Mostrar Braille" maxlength="50" onclick="BrText()"
+		class="btn btn-primary pull-left">
+
+	<div style="height:20px;width:1px;"></div>
+	<div id="myBr" class="braille" style="margin-top:30px;min-height:70px;min-width:1px;"></div>
+ 
+
+<script language="javascript">
+document.getElementById('txtBr').addEventListener("keyup", function(evt) {
+	if(evt.keyCode===13){
+		BrText();
+	}
+});
+</script>
+
+
+<name id="cssclasses"/>
+<h2>Alfabeto</h2>
+<div class="braille-doc2">
+	<div><div class="br br-a"></div><span>A</span></div>
+	<div><div class="br br-b"></div><span>B</span></div>
+	<div><div class="br br-c"></div><span>C</span></div>
+	<div><div class="br br-d"></div><span>D</span></div>
+	<div><div class="br br-e"></div><span>E</span></div>
+	<div><div class="br br-f"></div><span>F</span></div>
+	<div><div class="br br-g"></div><span>G</span></div>
+	<div><div class="br br-h"></div><span>H</span></div>
+	<div><div class="br br-i"></div><span>I</span></div>
+	<div><div class="br br-j"></div><span>J</span></div>
+
+	<div><div class="br br-k"></div><span>K</span></div>
+	<div><div class="br br-l"></div><span>L</span></div>
+	<div><div class="br br-m"></div><span>M</span></div>
+	<div><div class="br br-n"></div><span>N</span></div>
+	<div><div class="br br-o"></div><span>O</span></div>
+	<div><div class="br br-p"></div><span>P</span></div>
+	<div><div class="br br-q"></div><span>Q</span></div>
+	<div><div class="br br-r"></div><span>R</span></div>
+	<div><div class="br br-s"></div><span>S</span></div>
+	<div><div class="br br-t"></div><span>T</span></div>
+
+	<div><div class="br br-u"></div><span>U</span></div>
+	<div><div class="br br-v"></div><span>V</span></div>
+	<div><div class="br br-w"></div><span>W</span></div>
+	<div><div class="br br-x"></div><span>X</span></div>
+	<div><div class="br br-y"></div><span>Y</span></div>
+	<div><div class="br br-z"></div><span>Z</span></div>
+</div>
+
+</body>
+</html>
